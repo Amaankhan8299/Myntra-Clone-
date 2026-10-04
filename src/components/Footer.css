@@ -1,0 +1,128 @@
+.myntra-footer {
+  background-color: var(--bg-light);
+  border-top: 1px solid var(--border-color);
+  padding-top: 40px;
+}
+
+.footer-guarantees {
+  border-bottom: 1px solid var(--border-dark);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-guarantee-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.guarantee-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.guarantee-icon {
+  color: var(--text-primary);
+}
+
+.guarantee-item h4 {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.guarantee-item p {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.footer-links-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.footer-col ul li:hover {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.app-download-badges {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.app-download-badges img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.social-header {
+  margin-top: 16px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  background-color: var(--bg-white);
+  border: 1px solid var(--border-dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.footer-copyright {
+  background-color: #ffffff;
+  border-top: 1px solid var(--border-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
